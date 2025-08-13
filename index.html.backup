@@ -1,0 +1,209 @@
+<!doctype html> <html lang="en"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>RWA Capital — AI for Real Estate Tokenization</title> <meta name="description" content="AI-driven due diligence and analytics for tokenized real estate. Transactions facilitated via independent, regulated providers. Informational only — not an offer." /> <style> :root{ /* Light theme palette (Prypco-like neutrals) */ --bg:#ffffff; --surface:#ffffff; --muted-bg:#f7f8fa; --text:#0f1720; --muted:#647084; --brand:#0fb; /* tuned below */ --brand:#00C2A8; --accent:#4C7DFF; --line:#e5e7eb; --shadow:0 6px 20px rgba(15,23,32,0.08); --radius:14px; --max:1120px; } *{box-sizing:border-box} html,body{margin:0} body{background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif} a{color:#0f766e;text-decoration:none} .wrap{max-width:var(--max);margin:0 auto;padding:0 20px} header{position:sticky;top:0;background:rgba(255,255,255,.8);backdrop-filter: blur(8px);border-bottom:1px solid var(--line);z-index:10} .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0} .logo{display:flex;align-items:center;gap:10px;font-weight:700;color:#0b1420} .logo-badge{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--accent))} .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:999px;border:1px solid var(--line);background:#ffffff;color:var(--text);box-shadow:0 1px 0 rgba(0,0,0,0.02)} .btn-primary{background:var(--text);color:#fff;border-color:transparent;font-weight:600} .btn-ghost{background:transparent} .hero{padding:84px 0;border-bottom:1px solid var(--line);background: radial-gradient(1200px 400px at 20% -10%, rgba(76,125,255,.06), transparent), radial-gradient(1000px 400px at 80% -20%, rgba(0,194,168,.08), transparent)} h1{font-size:42px;line-height:1.15;margin:0 0 12px;letter-spacing:-0.01em} h2{font-size:30px;line-height:1.2;margin:0 0 12px} h3{font-size:20px;margin:0 0 8px} p{margin:0 0 10px;color:#334155} .lede{font-size:18px;color:#334155} .grid{display:grid;gap:28px} .cols{display:grid;grid-template-columns:1.2fr 1fr;gap:32px} .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)} .soft{background:var(--muted-bg)} .kicker{letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-size:12px;margin-bottom:10px} .bullets{display:grid;gap:10px;margin:0;padding:0} .bullets li{list-style:none;padding-left:28px;position:relative} .bullets li::before{content:"";position:absolute;left:0;top:9px;width:10px;height:10px;border-radius:50%;background:var(--brand)} .section{padding:64px 0;border-bottom:1px solid var(--line)} .list{margin:0;padding-left:18px} .note{font-size:12px;color:var(--muted)} .steps{display:grid;gap:18px} .step{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start} .badge{width:28px;height:28px;border-radius:8px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:#0b766e;font-weight:700;background:#ffffff} .avatar{width:160px;height:160px;border-radius:16px;object-fit:cover;border:1px solid var(--line);box-shadow:var(--shadow)} .founder-card{display:grid;grid-template-columns:160px 1fr;gap:20px;align-items:start} footer{padding:28px 0;color:#475569} .footer-grid{display:grid;gap:12px} .hero-illus{width:100%;height:auto;display:block;border-radius:16px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow)} .cta-row{display:flex;gap:12px;flex-wrap:wrap} @media (min-width:900px){ .hero .grid{grid-template-columns:1.2fr .8fr} h1{font-size:48px} .footer-grid{grid-template-columns:2fr 1fr 1fr} } @media (max-width:899px){ .cols{grid-template-columns:1fr} .founder-card{grid-template-columns:1fr;justify-items:start} } </style> </head> <body> <header> <div class="wrap nav"> <div class="logo"> <div class="logo-badge" aria-hidden="true"></div> <div>RWA Capital</div> </div> <nav aria-label="Main"> <a class="btn btn-ghost" href="#how">How it works</a> <a class="btn btn-ghost" href="#mvp">MVP</a> <a class="btn btn-ghost" href="#licensing">Licensing</a> <a class="btn btn-primary" href="#contact">Request a demo</a> </nav> </div> </header> <main> <!-- HERO --> <section class="hero" id="home"> <div class="wrap grid"> <div> <div class="kicker">Informational only — not an offer</div> <h1>AI for Real Estate Tokenization with Regulated‑Grade Workflows</h1> <p class="lede">We automate due diligence and data‑driven analytics to make tokenized real estate transactions more transparent, liquid, and accessible to qualified investors, working with independent, regulated providers where applicable.</p> <ul class="bullets" aria-label="Key benefits" style="margin-top:12px"> <li>Legal and documentary checks in minutes, not weeks.</li> <li>Predictive analytics for asset selection and pricing.</li> <li>Compliance path with independent, regulated service providers (KYC/AML, custody, execution).</li> </ul> <div class="cta-row" style="margin-top:16px"> <a class="btn btn-primary" href="#contact">Request a demo</a> <a class="btn" href="#mvp">View demo</a> </div> </div> <div> <!-- Hero illustration (SVG placeholder) --> <svg class="hero-illus" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="From documents to analysis to tokenized property"> <defs> <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"> <stop offset="0" stop-color="#00C2A8"/> <stop offset="1" stop-color="#4C7DFF"/> </linearGradient> </defs> <rect x="16" y="16" width="768" height="488" rx="16" fill="#fff"/> <rect x="16" y="16" width="768" height="488" rx="16" fill="url(#g1)" opacity=".06"/> <!-- Document block --> <rect x="48" y="64" width="200" height="140" rx="12" fill="#fff" stroke="#e5e7eb"/> <rect x="64" y="92" width="168" height="8" rx="4" fill="#e5e7eb"/> <rect x="64" y="112" width="120" height="8" rx="4" fill="#e5e7eb"/> <rect x="64" y="132" width="150" height="8" rx="4" fill="#e5e7eb"/> <text x="58" y="84" font-size="12" fill="#647084">Documents</text> <!-- Analysis block --> <rect x="300" y="64" width="220" height="140" rx="12" fill="#fff" stroke="#e5e7eb"/> <text x="306" y="84" font-size="12" fill="#647084">AI Analysis</text> <circle cx="340" cy="120" r="20" fill="#00C2A8" opacity=".15"/> <circle cx="340" cy="120" r="10" fill="#00C2A8"/> <rect x="372" y="108" width="128" height="10" rx="5" fill="#e5e7eb"/> <rect x="372" y="126" width="92" height="10" rx="5" fill="#e5e7eb"/> <!-- Token block --> <rect x="560" y="64" width="192" height="140" rx="12" fill="#fff" stroke="#e5e7eb"/> <text x="566" y="84" font-size="12" fill="#647084">Token</text> <circle cx="640" cy="130" r="28" fill="#4C7DFF" opacity=".15"/> <circle cx="640" cy="130" r="18" fill="#4C7DFF"/> <!-- Property card --> <rect x="120" y="240" width="560" height="200" rx="14" fill="#fff" stroke="#e5e7eb"/> <rect x="140" y="260" width="240" height="140" rx="10" fill="#f2f5f9"/> <rect x="400" y="280" width="260" height="10" rx="5" fill="#e5e7eb"/> <rect x="400" y="300" width="200" height="10" rx="5" fill="#e5e7eb"/> <rect x="400" y="320" width="220" height="10" rx="5" fill="#e5e7eb"/> <rect x="400" y="355" width="200" height="12" rx="6" fill="#00C2A8"/> <!-- Flow arrows --> <path d="M248 134 H296" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/> <path d="M520 134 H560" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/> <defs> <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"> <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/> </marker> </defs> </svg> </div> </div> </section>
+text
+<!-- HOW IT WORKS -->
+<section id="how" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>How it works</h2>
+      <div class="steps" role="list">
+        <div class="step" role="listitem">
+          <div class="badge" aria-hidden="true">1</div>
+          <div>
+            <h3>AI‑powered asset analysis</h3>
+            <p>We extract key data from documents, screen legal and operational risks, and compile an asset dossier. Predictive models assess returns and scenarios.</p>
+          </div>
+        </div>
+        <div class="step" role="listitem">
+          <div class="badge" aria-hidden="true">2</div>
+          <div>
+            <h3>Registration and compliance</h3>
+            <p>An AI assistant guides investor profiling and documentation. KYC/AML is performed by independent, regulated providers.</p>
+          </div>
+        </div>
+        <div class="step" role="listitem">
+          <div class="badge" aria-hidden="true">3</div>
+          <div>
+            <h3>Transactions and custody</h3>
+            <p>Token purchase, regulated custody, and secondary market access are facilitated through authorized third‑party providers. RWA Capital does not hold client funds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card soft">
+        <h3>Responsibility map</h3>
+        <ul class="list">
+          <li>RWA Capital: analytics, workflow, user interface</li>
+          <li>Independent providers: KYC/AML, issuance, custody, execution</li>
+          <li>User: investment decisions and risk acceptance</li>
+        </ul>
+        <p class="note">References to regulatory frameworks are contextual only and do not imply authorization, affiliation, or endorsement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MVP -->
+<section id="mvp" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>MVP interface: data, clarity, risk controls</h2>
+      <p>Demo illustrates the user journey and analytics format. Figures are illustrative and not investment advice.</p>
+      <ul class="bullets" style="margin-top:12px">
+        <li>Asset cards: legal dossier, key metrics, predictive scenarios</li>
+        <li>Navigation: portfolio, available listings, transaction history</li>
+        <li>Metrics: property attributes, funding progress, timelines</li>
+      </ul>
+      <div style="margin-top:16px">
+        <a class="btn" href="#contact">Get demo access</a>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h3>Technology</h3>
+        <ul class="list">
+          <li>Helios: document intelligence for legal and risk checks</li>
+          <li>Oracle: predictive analytics for pricing and selection</li>
+          <li>Security: access controls, audit logging (details forthcoming)</li>
+        </ul>
+        <p class="note">Data sources and validation approach will be disclosed as partnerships finalize.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY DUBAI -->
+<section id="dubai" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>Why Dubai</h2>
+      <ul class="bullets">
+        <li>Global hub for technology, capital, and real estate</li>
+        <li>Active innovation ecosystem and access to talent</li>
+        <li>Deep, transparent real‑estate market</li>
+        <li>Cross‑border capital flows and partnerships</li>
+      </ul>
+      <p class="note">Local framework references are for context only and do not indicate authorization, affiliation, or endorsement.</p>
+    </div>
+    <div>
+      <div class="card soft">
+        <h3>Discuss a pilot</h3>
+        <p style="color:#334155">We are exploring pilots with independent, regulated providers where appropriate.</p>
+        <a class="btn" href="#contact">Discuss a pilot</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LICENSING -->
+<section id="licensing" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>Licensing and pathway</h2>
+      <p>Early‑stage. Preparing documentation and evaluating providers. No regulatory approvals have been granted at this time.</p>
+      <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:12px">
+        <div class="card">
+          <h3>Roadmap (illustrative)</h3>
+          <ul class="list">
+            <li>Q2–Q3 2025: MVP development, partner evaluations</li>
+            <li>Q4 2025: Targeted pilot(s) with regulated providers</li>
+            <li>2026: Preparation for potential authorization applications</li>
+            <li>2027+: Scale‑up subject to approvals</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Disclosures</h3>
+          <ul class="list">
+            <li>Informational only; not an offer or solicitation</li>
+            <li>Access may be limited to professional/qualified investors</li>
+            <li>Geographic/legal restrictions may apply</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card soft">
+        <h3>Compliance overview</h3>
+        <ul class="list">
+          <li>KYC/AML: by independent, regulated providers</li>
+          <li>Custody & execution: via authorized providers</li>
+          <li>RWA Capital: does not hold client funds</li>
+        </ul>
+        <a class="btn" href="#contact">Learn about our compliance approach</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>Team</h2>
+      <div class="card founder-card">
+        <img class="avatar" src="founder.jpg" alt="Founder photo" />
+        <div>
+          <h3 style="margin:0 0 2px">Roman Chechushkov, MBA, FRM — CEO & Founder</h3>
+          <p style="margin:0 0 10px;color:#334155">20+ years in finance: CFO, structured products (Multi‑Family Office), investment analytics (Renaissance Bank). Focus: bridging TradFi and Web3 for tokenized RWAs.</p>
+          <ul class="bullets" style="margin-top:8px">
+            <li>Leadership across CFO, structured products, analytics</li>
+            <li>TradFi ↔ Web3: tokenization strategy and governance</li>
+            <li>Risk‑aware execution and investor outcomes</li>
+          </ul>
+          <div class="cta-row" style="margin-top:12px">
+            <a class="btn" href="#">Founder LinkedIn</a>
+            <a class="btn" href="#contact">Book an intro call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <h3>Technology leadership</h3>
+        <ul class="list">
+          <li>CTO: high‑load platforms and blockchain; infrastructure, security, AI R&D</li>
+          <li>AI/NLP Engineer: LegalTech/FinTech; automated due diligence (Helios)</li>
+          <li>Data Scientist: predictive models for returns and risk (Oracle)</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="card soft">
+        <h3>Connect</h3>
+        <ul class="list">
+          <li><a href="#contact">Book an intro call</a></li>
+          <li><a href="#">Public profile</a></li>
+        </ul>
+        <p class="note">Add public profiles and publications when available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="wrap cols">
+    <div>
+      <h2>Become a partner</h2>
+      <p>Request a demo or discuss a pilot with independent, regulated providers.</p>
+      <form class="card" onsubmit="event.preventDefault(); alert('Thanks! We will get back within 24 hours.');">
+        <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
+          <label> Name / Company*<br><input required aria-label="Name or Company" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text)"/></label>
+          <label> Email*<br><input type="email" required aria-label="Email" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text)"/></label>
+        </div>
+        <label style="display:block;margin-top:10px"> Message<br>
+          <textarea rows="5" aria-label="Message" style="width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text)"></textarea>
+        </label>
+        <div style="margin-top:12px"><button class="btn btn-primary" type="submit">Submit request</button></div>
+        <p class="note" style="margin-top:8px">We respond within 24 hours. No obligation.</p>
+      </form>
+    </div>
+    <div>
+      <div class="card soft">
+        <h3>About</h3>
+        <p style="color:#334155">RWA Capital is an AI‑driven platform that automates due diligence and analytics for real estate tokenization. Transactions are facilitated via independent, regulated third‑party providers. RWA Capital is not currently authorized by any financial regulator.</p>
+        <p class="note"><a href="#">Support</a> · <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main> <footer role="contentinfo"> <div class="wrap footer-grid"> <div>© 2025 RWA.Capital</div> <div>Regulatory status: Not currently authorized; exploratory stage</div> <div><a href="#">Privacy Policy</a></div> </div> </footer> </body> </html>
