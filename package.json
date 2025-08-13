@@ -1,0 +1,20 @@
+{
+  "name": "rwa-capital-website",
+  "version": "1.0.0",
+  "description": "RWA Capital - AI for Real Estate Tokenization",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "rwa",
+    "real-estate",
+    "tokenization",
+    "ai",
+    "fintech"
+  ],
+  "author": "RWA Capital",
+  "license": "UNLICENSED",
+  "private": true
+}
